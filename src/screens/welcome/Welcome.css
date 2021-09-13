@@ -1,0 +1,49 @@
+.Welcome{
+    min-height: 100vh;
+    background-image: url('../../asset/images/bg-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.access-form {
+    width: 90%;
+    max-width: 680px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 62px 15px 33px 15px;
+}
+  
+.access-form .title{
+    color: #555;
+    font-size: 39px;
+    text-align: center;
+    font-weight: medium;
+    padding: 0 0 53px;
+}
+
+.ValidationTrue{
+    color: rgb(255, 175, 175);
+    font-size: 30px;
+    text-align: center;
+    font-weight: medium;
+    padding: 0 0 53px;
+}
+
+/* Media query per Smartphone large */
+@media screen and (min-width: 577px) {
+    .access-form {
+        padding: 62px 60px 33px 60px;
+    }
+}
+
+/* Media query per Tablet */
+@media screen and (min-width: 768px) {
+    .access-form {
+        padding: 62px 110px 33px 110px;
+    }
+  }
